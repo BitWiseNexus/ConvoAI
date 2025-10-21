@@ -18,7 +18,7 @@ def audio_to_text():
     )
 
     audio_text=[]
-    directory_path = "/home/aditya/Desktop/InsureBot-Quest-2025/src/components/output"
+    directory_path = "D:\GenAI Projects\InsureBot-Quest-2025\src\data_processing\output"
 
     for filename in os.listdir(directory_path):
         full_path = os.path.join(directory_path, filename)
