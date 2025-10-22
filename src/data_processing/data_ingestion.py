@@ -42,7 +42,7 @@ def add_to_lancedb():
         for t in chunk:
             add_to_vector_db(tb,embeddings,t, "English", "conversation", "call transcript english")
 
-    with open("/home/rajeev-kumar/Desktop/InsureBot-Quest-2025/src/components/Knowledge Base.txt") as f:
+    with open("D:\\GenAI Projects\\ConvoAI\\src\\components\\Knowledge Base.txt") as f:
         kb_text = f.read()
 
     f.close()
