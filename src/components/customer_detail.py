@@ -1,6 +1,6 @@
 def details():
     customer_details = {
-        "policy_holder_name": "Rajeev Kumar",
+        "policy_holder_name": "Aditya",
         "policy_number": "PL123456789",
         "policy_start_date": "2020-05-15",
         "total_premium_paid": "₹1,20,000",

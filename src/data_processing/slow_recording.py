@@ -1,8 +1,8 @@
 import subprocess
 import os
 
-directory_path = "D:\\GenAI Projects\\ConvoAI\\src\\components\\Sample Call Recordings"
-output_file="D:\\GenAI Projects\\ConvoAI\\src\\components\\output"
+directory_path = "D://GenAI Projects//ConvoAI//src//components//Sample Call Recordings"
+output_file="D://GenAI Projects//ConvoAI//src//components//output"
 
 
 def get_slow_audio(directory_path):
